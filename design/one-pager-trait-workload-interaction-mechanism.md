@@ -26,10 +26,10 @@ We will use the following hypothetical OAM application as the baseline to illust
 apiVersion: core.oam.dev/v1alpha2
 kind: WorkloadDefinition
 metadata:
-name: mydb.standard.oam.dev
+name: mydbs.standard.oam.dev
 spec:
 definitionRef:
-  name: mydb.standard.oam.dev
+  name: mydbs.standard.oam.dev
 ---
 apiVersion: core.oam.dev/v1alpha2
 kind: TraitDefinition
